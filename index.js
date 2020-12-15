@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const fetch = require("node-fetch");
 
 const client = new Discord.Client();
-client.login("TOKEN");
+client.login("Nzg2MTEwMzU4MDY1NjQzNTI1.X9BoUg.-hTXJ8z3_x0GskiMfyMiKTjz55Y");
 client.on("ready", () => {
   console.log(`Bot has started, with ${client.users.cache.size} users, in ${client.channels.cache.size} channels of ${client.guilds.cache.size} guilds.`);
   client.user.setActivity(`Serving ${client.guilds.cache.size} servers`);
